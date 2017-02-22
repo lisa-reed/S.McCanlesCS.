@@ -24,6 +24,6 @@ li a {
 
 
 li a:hover {
-    background-color: purple;
-        color: green;
+    background-color: gold;
+        color: grey;
 }
