@@ -37,3 +37,6 @@ h1 {
 .headerMain {
     margin-top: 
 }
+li {
+    display: inline;
+}
