@@ -2,45 +2,22 @@
 body{
     background-color: blue;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  
-}
-
-.li {
-    float: left;
-    background-color: black;
-}
-
-li a {
-    display: block;
-    color: red;
-    background-color: black;
-    text-align: center;
-    padding: 14px 25px;
-    text-decoration: none;
-}
-
-
-li a:hover {
-    background-color: gold;
-        color: grey;
-}
-h1 {
-    color: white;
-}
-
-.headerMain {
-    margin-top: 
-}
 li {
     display: inline;
 }
+    li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
 ul {
+    background-color: #dddddd;
+}
+    ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -60,7 +37,18 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
+    .active {
+    background-color: #4CAF50;
+}
+   
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
