@@ -1,5 +1,6 @@
 
 
+
 body{
     background-color: blue;
 }
@@ -60,6 +61,7 @@ h1 {
 table{border-width: 3px;
     border-style: solid;
 }
-img }
+img {
 width: 50px;
-hight: 75;
+hight: 75px;
+}
